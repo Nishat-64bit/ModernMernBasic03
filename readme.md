@@ -92,23 +92,41 @@
     */
 
     // function expression (interview Question)
+    --------------------------------------------------
+    // function functionName(){
+        //excutionbody
+        console.log("print")
+    }functionName()
+    ----------------------------------------------------
+
+
     //------------------------------------
-    function juicemaker(num1, num2){ // num1, num2 holo parameter/variable
+    //Ex: 1
+
+    function juicemaker(num1, num2){
+        // num1, num2 holo parameter/variable
         // parameter/variable 
         // num1 = 20
         // num2 = 2
         // excution body
+
         console.log(num1+ num2); // 20 +2
     }
-    // calling function 
-    juicemaker(20,2)  // argument pass kora , mane juicemake ki niya kaj korbe 
+    juicemaker(20,2)  // calling function 
+    // argument pass kora , mane juicemake ki niya kaj korbe
 
+
+    //------------------------------------
+
+
+    // sumup : function
     // function kaj korbe tokon e jokon call korben tar name dore //
     // then se bitore dokce and pacce console.log e print leke se seta ke print kore dicce
     // juice maker e ki input dite caw seta holo argument passing
     // sei input ke newwar jonno jei varibale use hoi ta ke bole parameter jemon num1,num2
-    //------------------------------------
 
+    //------------------------------------
+    //Ex: 2
     function sum(num1,num2) {
         let total = num1 + num2 // functionality
     console.log("sum is ",total);
@@ -116,31 +134,33 @@
     }sum(50,20) 
 
     // output : sum is  70
+    //------------------------------------
 
 
     //------------------------------------ most important return mechanism  ---------------------------
 
-    // Ex-1
+    // Ex-3
     function addition(num3,num4){
     let mott = num3 + num4
-    return mott // kono value ver korte hole use koren return 
+    return mott 
+    // kono value ver korte hole use koren return 
     }
-    // console.log(returnMott); 51
-
     function division(num3) {
         // num3 = returnmott = 51
-        let divide = num3 / 100
-        console.log(divide); // 51/100 =0.51
+        let divide = num3 / 100     || 51/100 =0.51
+        console.log(divide); 0.51
     }
 
-    let returnMott = addition(25,26) // aekon aei return mott er value ver holo , kintu sei thakbe kothai ekon ? // se thakbe argument er vitore  // aekon aegument ke soman arrekta varible dore log korelei peaJabe
-    division(returnMott)
+    let returnMott = addition(25,26)  // 1st argument
+    division(returnMott)   // 2nd argument
+    // aekon aei return mott er value ver holo , kintu sei thakbe kothai ekon ? // se thakbe 1st argument er vitore.
+    
 
 
 
 
     //----------------------------------------------------------------
-    // Ex-2
+    // Ex-4
     /**
     * gon kora value ke divide korba 
     * gon er function
