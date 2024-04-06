@@ -79,3 +79,35 @@ divideFunction(ReturnMultifly) // 2nd argument
 
 
 //----------------------------------------------------------------
+
+
+//----------------------------------------------------------------
+// Ex-2
+/**
+ * gon kora value ke divide korba 
+ * gon er function
+ * gonFunction result use kore divide function console
+ * ekon apni chan divide kora function ke o ber korte ? use return
+ */
+//------------------------------------------
+function GonFunction(num5,num6) {
+    let multifly = num5 * num6;
+    return multifly
+}
+
+function divideFunction(num5) {
+    // num5 = ReturnMultifly = 500
+    let dividde = num5 / 6;
+    return dividde // 500/6 = // 83.33333333
+}
+
+
+let ReturnMultifly = GonFunction(100,5) // 1st argument 
+let returndividde = divideFunction(ReturnMultifly) // 2nd argument
+console.log(returndividde); // 83.33333333
+
+//------------------------------------------
+
+
+
+//----------------------------------------------------------------
